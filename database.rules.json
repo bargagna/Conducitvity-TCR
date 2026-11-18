@@ -1,0 +1,6 @@
+{
+  "rules": {
+    ".read": "auth != null && auth.token.email_verified == true && (auth.token.email == 'persona1@gmail.com' || auth.token.email == 'persona2@gmail.com' || auth.token.email == 'persona3@gmail.com' || auth.token.email == 'persona4@gmail.com' || auth.token.email == 'persona5@gmail.com' || auth.token.email == 'persona6@gmail.com' || auth.token.email == 'persona7@gmail.com' || auth.token.email == 'persona8@gmail.com' || auth.token.email == 'persona9@gmail.com')",
+    ".write": "auth != null && auth.token.email_verified == true && (auth.token.email == 'persona1@gmail.com' || auth.token.email == 'persona2@gmail.com' || auth.token.email == 'persona3@gmail.com' || auth.token.email == 'persona4@gmail.com' || auth.token.email == 'persona5@gmail.com' || auth.token.email == 'persona6@gmail.com' || auth.token.email == 'persona7@gmail.com' || auth.token.email == 'persona8@gmail.com' || auth.token.email == 'persona9@gmail.com')"
+  }
+}
